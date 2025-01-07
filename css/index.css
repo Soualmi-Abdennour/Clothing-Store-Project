@@ -1,0 +1,174 @@
+/* start hero section  */
+#hero {
+    background-image: url(../img/hero4.png);
+    background-size: cover;
+    background-position: top 25% right 0;
+    height: calc(100vh - 85.73px);
+    padding: 0 5vw;
+    align-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #088178;
+}
+
+#hero button {
+    background: url(../img/button.png);
+    background-position: center;
+    padding: 14px 80px;
+    color: #088178;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+@media (max-width:768px) {
+    #hero {
+        height: 70vh;
+        background-position: 55%;
+    }
+}
+
+
+
+/* start banner  */
+#banner {
+    background: url(../img/banner/b2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-transform: capitalize;
+}
+
+#banner h4 {
+    font-size: 16px;
+    color: #fff;
+}
+
+#banner h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+#banner h2 span {
+    color: #ef3636;
+}
+
+#banner button:hover {
+    background-color: #088178;
+    color: #fff;
+}
+
+@media (max-width:768px) {
+    #banner {
+        height: 25vh;
+    }
+}
+
+
+/* start sm-banner  */
+#sm-banner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+#sm-banner div:first-of-type {
+    background-image: url(../img/banner/b17.jpg);
+}
+
+#sm-banner div:last-of-type {
+    background-image: url(../img/banner/b10.jpg);
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+    padding: 30px;
+    height: 50vh;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: #088178;
+    border: 1px solid #088178;
+}
+
+#sm-banner .banner-box h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner .banner-box h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner .banner-box span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+/* end sm-banner  */
+
+/* start banner3  */
+#banner3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 0 5vw;
+}
+
+#banner3 .banner-box {
+    height: 30vh;
+    align-content: center;
+    background-position: center;
+    background-size: cover;
+    padding: 0 0 0px 20px;
+}
+
+#banner3 .banner-box h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#banner3 .banner-box h3 {
+    color: #ef3636;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+#banner3 div:first-of-type {
+    background-image: url(../img/banner/b7.jpg);
+}
+
+#banner3 div:nth-of-type(2) {
+    background-image: url(../img/banner/b4.jpg);
+}
+
+#banner3 div:last-of-type {
+    background-image: url(../img/banner/b18.jpg);
+}
+
+/* end banner3  */

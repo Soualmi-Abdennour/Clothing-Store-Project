@@ -1,0 +1,17 @@
+/* start hero  */
+#page-header {
+    background-image: url(../img/banner/b1.jpg);
+}
+/* end hero  */
+/* start products  */
+#products .pages {
+    text-align: center;
+}
+#products .pages a {
+    background-color: #088178;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+/* end products  */
